@@ -204,6 +204,10 @@ ul li a:hover {
   margin: 70px;
   text-align: center;
 }
+
+.media-element:hover{
+  transform: scale(10.3s);
+}
 .media-scroller {
   display: grid;
   gap: 3rem;

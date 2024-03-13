@@ -102,13 +102,13 @@ section {
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   
 }
 
@@ -131,7 +131,6 @@ section {
 .description {
   line-height: 1.5rem;
   color: var(--text-light);
-  margin-bottom: 2rem;
 }
 
 .social-media a ,.socialIcons a{
@@ -145,7 +144,7 @@ section {
     border-radius: 50%;
     font-size: 2rem;
     color: var(--primary-color-dark);
-    margin:1rem ;
+    margin:1rem;
     transition: .5s ease;
 }
 
@@ -578,7 +577,7 @@ footer {
 /*---------------------------------------------------------------------------------*/
 
 
-@media (width < 750px) {
+@media (width < 900px) {
   nav .checkbox {
     display: block;
   }
